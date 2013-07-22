@@ -1,0 +1,302 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63461D76179CC7A8008D68E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63461D75179CC7A8008D68E8 /* UIKit.framework */; };
+		63461D78179CC7A8008D68E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63461D77179CC7A8008D68E8 /* Foundation.framework */; };
+		63461D7A179CC7A8008D68E8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63461D79179CC7A8008D68E8 /* CoreGraphics.framework */; };
+		63461D9E179CC8E6008D68E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63461D93179CC8E6008D68E8 /* InfoPlist.strings */; };
+		63461D9F179CC8E6008D68E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63461D95179CC8E6008D68E8 /* main.m */; };
+		63461DA0179CC8E6008D68E8 /* TouchExplorerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63461D97179CC8E6008D68E8 /* TouchExplorerAppDelegate.m */; };
+		63461DA1179CC8E6008D68E8 /* YAutoNavi-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63461D98179CC8E6008D68E8 /* YAutoNavi-Info.plist */; };
+		63461DA2179CC8E6008D68E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63461D9B179CC8E6008D68E8 /* Default-568h@2x.png */; };
+		63461DA3179CC8E6008D68E8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 63461D9C179CC8E6008D68E8 /* Default.png */; };
+		63461DA4179CC8E6008D68E8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63461D9D179CC8E6008D68E8 /* Default@2x.png */; };
+		63461DA7179CC91F008D68E8 /* DDMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63461DA6179CC91F008D68E8 /* DDMenuController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		63461D72179CC7A8008D68E8 /* YAutoNavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YAutoNavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63461D75179CC7A8008D68E8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63461D77179CC7A8008D68E8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63461D79179CC7A8008D68E8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63461D94179CC8E6008D68E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63461D95179CC8E6008D68E8 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63461D96179CC8E6008D68E8 /* TouchExplorerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchExplorerAppDelegate.h; sourceTree = "<group>"; };
+		63461D97179CC8E6008D68E8 /* TouchExplorerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchExplorerAppDelegate.m; sourceTree = "<group>"; };
+		63461D98179CC8E6008D68E8 /* YAutoNavi-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "YAutoNavi-Info.plist"; sourceTree = "<group>"; };
+		63461D99179CC8E6008D68E8 /* YAutoNavi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YAutoNavi-Prefix.pch"; sourceTree = "<group>"; };
+		63461D9B179CC8E6008D68E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		63461D9C179CC8E6008D68E8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		63461D9D179CC8E6008D68E8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		63461DA5179CC91F008D68E8 /* DDMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDMenuController.h; sourceTree = "<group>"; };
+		63461DA6179CC91F008D68E8 /* DDMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDMenuController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63461D6F179CC7A8008D68E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63461D76179CC7A8008D68E8 /* UIKit.framework in Frameworks */,
+				63461D78179CC7A8008D68E8 /* Foundation.framework in Frameworks */,
+				63461D7A179CC7A8008D68E8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63461D69179CC7A8008D68E8 = {
+			isa = PBXGroup;
+			children = (
+				63461D7B179CC7A8008D68E8 /* YAutoNavi */,
+				63461D74179CC7A8008D68E8 /* Frameworks */,
+				63461D73179CC7A8008D68E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63461D73179CC7A8008D68E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63461D72179CC7A8008D68E8 /* YAutoNavi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63461D74179CC7A8008D68E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63461D75179CC7A8008D68E8 /* UIKit.framework */,
+				63461D77179CC7A8008D68E8 /* Foundation.framework */,
+				63461D79179CC7A8008D68E8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63461D7B179CC7A8008D68E8 /* YAutoNavi */ = {
+			isa = PBXGroup;
+			children = (
+				63461D92179CC8E6008D68E8 /* BaseCodeFile */,
+				63461D9A179CC8E6008D68E8 /* Resource */,
+			);
+			path = YAutoNavi;
+			sourceTree = "<group>";
+		};
+		63461D92179CC8E6008D68E8 /* BaseCodeFile */ = {
+			isa = PBXGroup;
+			children = (
+				63461DA5179CC91F008D68E8 /* DDMenuController.h */,
+				63461DA6179CC91F008D68E8 /* DDMenuController.m */,
+				63461D93179CC8E6008D68E8 /* InfoPlist.strings */,
+				63461D95179CC8E6008D68E8 /* main.m */,
+				63461D96179CC8E6008D68E8 /* TouchExplorerAppDelegate.h */,
+				63461D97179CC8E6008D68E8 /* TouchExplorerAppDelegate.m */,
+				63461D98179CC8E6008D68E8 /* YAutoNavi-Info.plist */,
+				63461D99179CC8E6008D68E8 /* YAutoNavi-Prefix.pch */,
+			);
+			path = BaseCodeFile;
+			sourceTree = "<group>";
+		};
+		63461D9A179CC8E6008D68E8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				63461D9B179CC8E6008D68E8 /* Default-568h@2x.png */,
+				63461D9C179CC8E6008D68E8 /* Default.png */,
+				63461D9D179CC8E6008D68E8 /* Default@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63461D71179CC7A8008D68E8 /* YAutoNavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63461D8F179CC7A8008D68E8 /* Build configuration list for PBXNativeTarget "YAutoNavi" */;
+			buildPhases = (
+				63461D6E179CC7A8008D68E8 /* Sources */,
+				63461D6F179CC7A8008D68E8 /* Frameworks */,
+				63461D70179CC7A8008D68E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YAutoNavi;
+			productName = YAutoNavi;
+			productReference = 63461D72179CC7A8008D68E8 /* YAutoNavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63461D6A179CC7A8008D68E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TouchExplorer;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = liyuhang;
+			};
+			buildConfigurationList = 63461D6D179CC7A8008D68E8 /* Build configuration list for PBXProject "YAutoNavi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 63461D69179CC7A8008D68E8;
+			productRefGroup = 63461D73179CC7A8008D68E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63461D71179CC7A8008D68E8 /* YAutoNavi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63461D70179CC7A8008D68E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63461D9E179CC8E6008D68E8 /* InfoPlist.strings in Resources */,
+				63461DA1179CC8E6008D68E8 /* YAutoNavi-Info.plist in Resources */,
+				63461DA2179CC8E6008D68E8 /* Default-568h@2x.png in Resources */,
+				63461DA3179CC8E6008D68E8 /* Default.png in Resources */,
+				63461DA4179CC8E6008D68E8 /* Default@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63461D6E179CC7A8008D68E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63461D9F179CC8E6008D68E8 /* main.m in Sources */,
+				63461DA0179CC8E6008D68E8 /* TouchExplorerAppDelegate.m in Sources */,
+				63461DA7179CC91F008D68E8 /* DDMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		63461D93179CC8E6008D68E8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63461D94179CC8E6008D68E8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63461D8D179CC7A8008D68E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63461D8E179CC7A8008D68E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63461D90179CC7A8008D68E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAutoNavi/YAutoNavi-Prefix.pch";
+				INFOPLIST_FILE = "YAutoNavi/YAutoNavi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63461D91179CC7A8008D68E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YAutoNavi/YAutoNavi-Prefix.pch";
+				INFOPLIST_FILE = "YAutoNavi/YAutoNavi-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63461D6D179CC7A8008D68E8 /* Build configuration list for PBXProject "YAutoNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63461D8D179CC7A8008D68E8 /* Debug */,
+				63461D8E179CC7A8008D68E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63461D8F179CC7A8008D68E8 /* Build configuration list for PBXNativeTarget "YAutoNavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63461D90179CC7A8008D68E8 /* Debug */,
+				63461D91179CC7A8008D68E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63461D6A179CC7A8008D68E8 /* Project object */;
+}
