@@ -7,7 +7,7 @@
 //
 
 #import "TouchExplorerAppDelegate.h"
-
+#import "DDMenuController.h"
 @implementation TouchExplorerAppDelegate
 
 - (void)dealloc
